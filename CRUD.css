@@ -1,0 +1,82 @@
+body{
+    color: #222;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #ddd;
+    min-width: 400px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.add-nombres {
+    margin-top: 40px;
+}
+
+.name {
+    padding: 4px 8px;
+}
+
+.add{
+    padding: 4px 8px;
+}
+
+.nombres{
+    margin: 40px;
+}
+
+.nombre {
+    display: grid;
+    grid-template-columns: minmax(100px,300px) 1fr;
+    margin-top: 10px;
+    border-top: 2px solid #48e;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.options{
+    display: flex;
+    justify-self: end;
+}
+
+.options button{
+    background: transparent;
+    border: none;
+    margin: 4px 10px;
+    outline: none;
+}
+
+.delete:hover {
+    color: #999;
+}
+
+.imposible {
+    color: #ccc;
+}
+
+.posible {
+    color: #37d;
+}
+
+.posible:hover {
+    color: #6af;
+}
+
+.nombre h2{
+    padding: 6px;
+    color: #48e;
+
+}
+
+
+
+
+
+
+
+
+
+
+
