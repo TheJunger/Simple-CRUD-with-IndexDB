@@ -121,13 +121,3 @@ const nombresHTML = (id,name)=> {
 
     return container
 }
-
-
-
-
-
-
-
-
-
-
